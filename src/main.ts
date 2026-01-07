@@ -7,6 +7,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       '*',
+      'http://127.0.0.1:4200',
       'http://localhost:4200',
       'http://localhost:8100', // Ionic
       'https://your-frontend.vercel.app'
